@@ -1,33 +1,36 @@
+
 <!DOCTYPE html>
 <html lang="ar">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>FlexPlay</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexPlay</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header>
-    <h1>مرحباً بك في FlexPlay</h1>
-    <p>استمتع بالأفلام والمسلسلات والمباريات مباشرة</p>
-  </header>
-  <main>
-    <section class="content">
-      <h2>العروض المميزة</h2>
-      <div class="card">🎬 فيلم جديد</div>
-      <div class="card">📺 مسلسل مميز</div>
-      <div class="card">⚽ مباراة مباشرة</div>
-    </section>
-    <section class="comments">
-      <h2>التعليقات</h2>
-      <div id="comments-list"></div>
-      <form id="comment-form">
-        <input type="text" id="comment-input" placeholder="أضف تعليقك..." required />
-        <button type="submit">نشر</button>
-      </form>
-    </section>
-  </main>
-  <footer>جميع الحقوق محفوظة © FlexPlay 2025</footer>
-  <script src="script.js"></script>
+    <div class="hero">
+        <img src="images/logo.png" alt="FlexPlay Logo" class="logo">
+        <h1>مرحبًا بك في FlexPlay</h1>
+        <p>استمتع بمشاهدة الأفلام، المسلسلات والمباريات بجودة عالية من خلال تطبيق FlexPlay.</p>
+        <img src="images/app-preview.png" alt="واجهة التطبيق" class="preview">
+        <a href="#" class="download-button">تحميل التطبيق الآن</a>
+    </div>
+    <div class="comments-section">
+        <h2>آراء المستخدمين</h2>
+        <div class="comment">
+            <img src="images/user1.png" alt="User" class="user-img">
+            <div>
+                <strong>أحمد</strong>
+                <p>تطبيق رائع وسهل الاستخدام!</p>
+            </div>
+        </div>
+        <div class="comment">
+            <img src="images/user2.png" alt="User" class="user-img">
+            <div>
+                <strong>ليلى</strong>
+                <p>أفضل تطبيق للمباريات والمسلسلات.</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
